@@ -1,10 +1,32 @@
 package practicies;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class Main {
+
+    public static int reverse(int x) {
+        int reversed = 0; // declara a variavel reversed como 0
+        int pop; // declara a variavel pop
+
+        while (x != 0) { // cria um while que vai ficar em loop se x não for igual 0
+            pop = x % 10; // pop recebe o resto da divisão de x por 10
+            System.out.println(pop);
+            x /= 10; // x recebe o valor da divisão de x por 10
+
+            if (reversed > Integer.MAX_VALUE / 10 || reversed == Integer.MAX_VALUE / 10 && pop > 7) { // se reversed for maior que o valor maximo de um inteiro dividido por 10 ou reversed for igual ao valor maximo de um inteiro dividido por 10 e pop for maior que 7
+                return 0;
+            }
+
+            if (reversed < Integer.MIN_VALUE / 10 || reversed == Integer.MIN_VALUE / 10 && pop < -8) { // se reversed for menor que o valor minimo de um inteiro dividido por 10 ou reversed for igual ao valor minimo de um inteiro dividido por 10 e pop for menor que -8
+                return 0;
+            }
+
+            System.out.println(x);
+            System.out.println(reversed);
+            reversed = (reversed * 10) + pop; // reversed recebe o valor de reversed multiplicado por 10 mais o valor de pop
+            System.out.println(reversed);
+        }
+
+        return reversed;
+    }
 
     public static class ListNode {
         int val;
@@ -90,7 +112,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(addTwoNumbers(new ListNode(2, new ListNode(4, new ListNode(3))), new ListNode(5, new ListNode(6, new ListNode(4)))));
+        reverse(-123);
+//        System.out.println(addTwoNumbers(new ListNode(2, new ListNode(4, new ListNode(3))), new ListNode(5, new ListNode(6, new ListNode(4)))));
 //        stairs(6);
 //        System.out.println(sockMerchant(7, List.of(10, 20, 20, 10, 10, 30, 50, 10, 20)));
 //        System.out.println(fourSum(new int[]{2,2,2,2,2}, 8));
