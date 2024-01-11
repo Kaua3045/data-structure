@@ -1,3 +1,12 @@
 
-]	java:S125"<This block of commented-out lines of code should be removed.(è’ùÿÿÿÿ8£áÿöµ1
-]	java:S125"<This block of commented-out lines of code should be removed.(¸™ôêûÿÿÿÿ8£áÿöµ1
+m	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞêÁï8“®˜Â¶1
+r	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÍÆ§ùÿÿÿÿ8”®˜Â¶1
+L	java:S106"+Replace this use of System.out by a logger.(Ù›”íøÿÿÿÿ8Ò®˜Â¶1
+L	java:S106"+Replace this use of System.out by a logger.(µÏ…èùÿÿÿÿ8Ò®˜Â¶1
+L	java:S106"+Replace this use of System.out by a logger.(¢ŞÁÏÿÿÿÿÿ8Ó®˜Â¶1
+L	java:S106"+Replace this use of System.out by a logger.(¢ŞÁÏÿÿÿÿÿ8Ó®˜Â¶1
+S
+java:S1854@"6Remove this useless assignment to local variable "l3".(à…¸õ8Ô®˜Â¶1
+]	java:S125F"<This block of commented-out lines of code should be removed.(¤ôİ®şÿÿÿÿ8×®˜Â¶1
+F	java:S106n"+Replace this use of System.out by a logger.(ƒÚáB8Ù®˜Â¶1
+]	java:S125t"<This block of commented-out lines of code should be removed.(Ô‹Àòûÿÿÿÿ8Ú®˜Â¶1
