@@ -15,7 +15,5 @@ T
 $src/arrays/searchs/BinarySearch.java,b/8/b8d6364b5a18428d87c1b060094a31d1783c6f16
 L
 src/practicies/LeetCode.java,8/b/8bcd86beeefdcc05f76d899ff07df7fb58d7ce0e
-K
-src/test/ProductImages.java,d/6/d6bb6f72935e2ed4c750d5c8b49691c0297ee99c
-E
-src/test/Product.java,0/a/0a6bf32af8ed269937ed48d5c0e9dac3a376d532
+\
+,src/algorithms/searchs/BinarySearchBook.java,b/4/b4a31633f2620c3c5f13dc135f53edd6f86f85fa
