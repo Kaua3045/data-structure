@@ -17,3 +17,7 @@ L
 src/practicies/LeetCode.java,8/b/8bcd86beeefdcc05f76d899ff07df7fb58d7ce0e
 \
 ,src/algorithms/searchs/BinarySearchBook.java,b/4/b4a31633f2620c3c5f13dc135f53edd6f86f85fa
+W
+'src/algorithms/sort/SelectSortBook.java,4/5/45957a19196d59fe4bfce574d5920f4fc7f0093b
+E
+src/utils/Client.java,a/0/a0cb582651472d60b78172b85b8eb792e6c4fd22
