@@ -1,6 +1,6 @@
-package algorithms.searchs;
+package algorithms.recursive;
 
-public class RecursiveSearchBook {
+public class RecursiveBook {
 
     public static void main(String[] args) {
         System.out.println(fatorial(3));
