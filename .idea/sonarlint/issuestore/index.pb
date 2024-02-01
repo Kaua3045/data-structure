@@ -21,8 +21,6 @@ W
 'src/algorithms/sort/SelectSortBook.java,4/5/45957a19196d59fe4bfce574d5920f4fc7f0093b
 E
 src/utils/Client.java,a/0/a0cb582651472d60b78172b85b8eb792e6c4fd22
-_
-/src/algorithms/searchs/RecursiveSearchBook.java,9/c/9cce6d0a7085f70b09bedd80fae53c6a161a3507
 V
 &src/algorithms/sort/QuickSortBook.java,9/c/9c38c5e2cf45791032ffa9b80fabc64f1f465eaa
 [

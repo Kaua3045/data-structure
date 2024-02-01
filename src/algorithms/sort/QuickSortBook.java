@@ -1,14 +1,62 @@
 package algorithms.sort;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class QuickSortBook {
 
     public static void main(String[] args) {
+        quicksort(List.of(45, 28, 37, 25, 100, 500, 199, 383, 96))
+                .forEach(System.out::println);
 //        System.out.println(sumArrayRecursive(List.of(1, 2, 3, 4)));
 //        System.out.println(sumTotalArraySize(List.of(1, 2, 3, 4)));
 //        System.out.println(getBiggerNumberInArray(List.of(1, 4, 3, 2)));
 //        System.out.println(binarySearchRecursive(List.of(1, 2, 3, 4), 0, 3, 4));
+    }
+    
+    public static List<Integer> quicksort(List<Integer> numbers) {
+        // caso-base se o array for menor que 2, não tem o que ordenar, então retorna
+        if (numbers.size() < 2) {
+            return numbers;
+        }
+
+        // pivo, pode ser qualquer número, por facilidade, sempre pegamos o primeiro
+        int pivo = numbers.get(0);
+
+        // criamos os arrays que iram conter os menores e maiores
+        List<Integer> menores = new ArrayList<>();
+        List<Integer> maiores = new ArrayList<>();
+
+        // fazemos um for iniciando do 1, por que já pegamos o 0, esse for passa por todo o array
+        for (int i = 1; i < numbers.size(); i++) {
+            // pegamos o elemento do indice, só pra facilitar
+            int elemento = numbers.get(i);
+
+            // verificamos se o elemento atual é menor ou igual ao pivo, se for menor ou igual colocamos
+            // no array de menores elementos
+            if (elemento <= pivo) {
+                menores.add(elemento);
+            } else {
+                // caso então seja maior que o pivo, colocamos no array de maiores elementos
+                maiores.add(elemento);
+            }
+        }
+
+        // criamos um array pro resultado
+        List<Integer> resultado = new ArrayList<>();
+
+        // chama o addAll que adiciona um lista, pega e faz a chamada recursiva passando o array menores
+        // e ai adiciona ao resultado
+        resultado.addAll(quicksort(menores));
+
+        // adiciona o pivo ao resultado
+        resultado.add(pivo);
+
+        // chama o addAll que adiciona um lista, pega e faz a chamada recursiva passando o array maiores
+        // e ai adiciona ao resultado
+        resultado.addAll(quicksort(maiores));
+
+        return resultado;
     }
 
 //    public static int sumArrayRecursive(List<Integer> numbers) {
