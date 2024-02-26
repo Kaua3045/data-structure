@@ -1,4 +1,8 @@
 
-F	java:S106"+Replace this use of System.out by a logger.(Äë” 8—¸ŠÚÔ1
-L	java:S106"+Replace this use of System.out by a logger.(·ùßóıÿÿÿÿ8ğ÷ÚÔ1
-L	java:S106"+Replace this use of System.out by a logger.(·ùßóıÿÿÿÿ8ğ÷ÚÔ1
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ëÆ8İı«Ş1
+F	java:S106	"+Replace this use of System.out by a logger.(Äë” 8åı«Ş1
+G	java:S106
+"+Replace this use of System.out by a logger.(·´Ê8æı«Ş1
+L	java:S106"+Replace this use of System.out by a logger.(·ùßóıÿÿÿÿ8Ûæ¥«Ş1
+L	java:S106"+Replace this use of System.out by a logger.(·ùßóıÿÿÿÿ8å´¦«Ş1
+L	java:S106'"+Replace this use of System.out by a logger.(®ıáëûÿÿÿÿ8ìÔ¨«Ş1
